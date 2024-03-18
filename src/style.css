@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/dist/img/lebar.jpg);
+}
+
+#products img {
+  width: 500px;
+  height: 280px;
+}
+
+.card {
+  margin: 1.5rem;
+}
